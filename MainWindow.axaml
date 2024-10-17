@@ -1,0 +1,19 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="RSVPAvalonia.MainWindow"
+        TransparencyLevelHint="Transparent"
+        ExtendClientAreaToDecorationsHint="True"
+        ExtendClientAreaTitleBarHeightHint="0"
+        CanResize="False"
+        Background="Transparent"
+        WindowStartupLocation="CenterScreen"
+        Width="800" Height="600">
+	<Grid>
+		<TextBlock x:Name="WordTextBlock"
+                   FontSize="48"
+                   FontWeight="Bold"
+                   Foreground="White"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center" />
+	</Grid>
+</Window>
